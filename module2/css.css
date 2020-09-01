@@ -1,0 +1,110 @@
+ header h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.item{
+    border: 1px solid black;
+    border-width: thick;
+    background-color:gainsboro;
+    position: relative;
+    padding: 25px 15px;
+    margin: 15px;
+    top: 0;
+}
+.type1{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-width: thick;
+    background-color: darksalmon;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 150px; 
+    padding: 0px 20px;
+    text-align: center;
+    
+}
+.type2{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-width: thick;
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 150px; 
+    padding: 0px 20px;
+    text-align: center;
+    
+}
+.type3{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-width: thick;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 150px; 
+    padding: 0px 20px;
+    text-align: center;
+    
+}
+@media (min-width: 992px){
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;  
+    }
+    .col-lg-1 {
+      width: 8.33%;
+    }
+    .col-lg-2 {
+      width: 16.66%;
+    }
+    .col-lg-3 {
+      width: 25%;
+    }
+    .col-lg-4 {
+      width: 33.33%;
+    }
+    .col-lg-5 {
+      width: 41.66%;
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+    .col-lg-7 {
+      width: 58.33%;
+    }
+    .col-lg-8 {
+      width: 66.66%;
+    }
+    .col-lg-9 {
+      width: 74.99%;
+    }
+    .col-lg-10 {
+      width: 83.33%;
+    }
+    .col-lg-11 {
+      width: 91.66%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+  
+  }
+  @media (min-width: 768px) and (max-width: 991px){
+    .col-lg-4 {
+      width: 50%;
+      float: left;
+    }
+    .col-lg-tablet{
+     width: 100%;
+     float: left;
+   }
+  }
+@media (max-width: 767px){
+    .col-lg-4{
+      width: 100%;
+      float: left;
+    }
+  }
